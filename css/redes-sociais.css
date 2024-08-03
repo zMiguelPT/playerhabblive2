@@ -1,0 +1,32 @@
+/* Player editado por <prince>Guilherme Pessoa</prince> ÂÂ© 2017 ~ Skype: Guilherme.locutor1 ~ Raidcall: djprinceapril */
+
+
+.site:active {
+	height: 19px;
+	background-position: bottom;
+}
+.site {
+	background-image: url(../images/site.png);
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 53px;
+	cursor: pointer;
+}
+.twitter {
+	background-image: url(../images/twitter.png);
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	right: 31px;
+	top: 53px;
+	cursor: pointer;
+}
+
+.twitter:active {
+	height: 19px;
+	background-position: bottom;
+}
+
+/* Player editado por <prince>Guilherme Pessoa</prince> ÂÂ© 2017 ~ Skype: Guilherme.locutor1 ~ Raidcall: djprinceapril */

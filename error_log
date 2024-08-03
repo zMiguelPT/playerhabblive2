@@ -1,0 +1,26 @@
+[05-Jul-2017 22:12:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:13:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:13:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:13:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:14:09 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:14:10 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:14:13 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:14:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:15:45 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:15:46 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:15:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:15:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:15:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:15:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:15:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:15:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 105
+[05-Jul-2017 22:25:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:25:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:25:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:29:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:30:48 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 22:31:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/g68obiti/public_html/client/index.php on line 108
+[05-Jul-2017 23:44:39 America/Sao_Paulo] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/g68obiti/public_html/cliente/prince/status.php on line 5
+[05-Jul-2017 23:44:39 America/Sao_Paulo] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/g68obiti/public_html/cliente/prince/status.php on line 27
+[05-Jul-2017 23:47:12 America/Sao_Paulo] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/g68obiti/public_html/cliente/prince/status.php on line 5
+[05-Jul-2017 23:47:12 America/Sao_Paulo] PHP Warning:  fsockopen() expects parameter 2 to be long, string given in /home/g68obiti/public_html/cliente/prince/status.php on line 27

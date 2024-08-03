@@ -1,0 +1,337 @@
+#area_player {
+	width: calc(100% - 200px);
+	font-family: "Ubuntu", sans-serif;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#player {
+	background-color: red;
+	width: 266px;
+	float: left;
+}
+
+.player_min {
+	background-image: url(../img/bg_2.png);
+	width: 160px;
+	height: 45px;
+	position: absolute;
+	left: 80px;
+	top: -45px;
+	transition: all 0.5s;
+}
+
+#player.minimize .player_min {
+	top: 0px;
+}
+
+.player_min .guy {
+	background-image: url(../img/guy.png);
+	width: 31px;
+	height: 30px;
+	float: left;
+	margin: 4px 8px;
+	margin-bottom: 0;
+}
+
+.player_min .txt {
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.player_min .handle {
+	background-image: url(../img/handle.png);
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	right: 34px;
+	top: 10px;
+	cursor: e-resize;
+}
+
+.player_min .open {
+	background-image: url(../img/open.png);
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	right: 12px;
+	top: 10px;
+	cursor: pointer;
+}
+
+.player_min .open:active {
+	height: 19px;
+	top: 11px;
+	background-position: bottom;
+}
+
+.player {
+	background-image: url(../images/bg.png);
+	width: 272px;
+	height: 103px;
+	position: absolute;
+	float: left;
+	transition: all 0.5s;
+	top: 0px;
+}
+
+#player.minimize .player {
+	top: -103px;
+}
+
+/*.player .chair {
+	background-image: url(../img/chair.png);
+	width: 33px;
+	height: 25px;
+	margin-left: 19px;
+	margin-top: 41px;
+	float: left;
+	position: relative;
+}
+
+.player .chair:before {
+	content: "";
+	background-image: url(../img/chair_2.png);
+	width: 33px;
+	height: 25px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.player .chair .habbo {
+	width: 33px;
+	height: 56px;
+	margin-left: 3px;
+}
+
+.player .chair .cabeca {
+	width: 54px;
+	height: 62px;
+	margin-top: -45px;
+	margin-left: -10px;
+	margin-bottom: -46px;
+	position: relative;
+	z-index: 2;
+}/*
+
+/*.player .btn {
+	//background-image: url(../img/buttonnew.png);
+	width: 60px;
+	height: 40px;
+	float: left;
+	margin-left: 14px;
+	margin-top: 7px;
+}*/
+
+.player .update {
+	background-image: url(../img/update.png);
+	background-position: left top;
+	width: 5px;
+	height: 5px;
+	float: left;
+	margin-left: -42px;
+	margin-top: 56px;
+}
+.player .room1 {
+	background-image: url(../img/room1.png);
+	background-position: right top;
+	width: 5px;
+	height: 5px;
+	float: right;
+	margin-right: -5px;
+	margin-top: 14px;
+}
+
+.player .play {
+	background-image: url(../images/play.png);
+	background-position: left top;
+	width: 10px;
+	height: 15px;
+	float: left;
+	margin-left: -54px;
+	margin-top: 61px;
+}
+
+.player .play:hover {
+	background-position: left bottom;
+}
+
+.player .pause {
+	background-image: url(../images/play.png);
+	background-position: right top;
+	width: 11px;
+	height: 15px;
+	float: left;
+	margin-left: -55px;
+	margin-top: 61px;
+}
+
+.player .pause:hover {
+	background-position: right bottom;
+}
+
+.player .orders {
+	background-image: url(../images/orders.png);
+	background-position: left top;
+	width: 22px;
+	height: 17px;
+	float: left;
+	margin-left: -22px;
+	margin-top: 60px;
+}
+
+/*.player .play:hover {
+	background-position: left bottom;
+}*/
+
+.player .plus {
+	background-image: url(../images/plus.png);
+	background-position: left top;
+	width: 21px;
+	height: 18px;
+	float: left;
+	margin-left: 17px;
+	margin-top: 20px;
+}
+
+.player .plus:hover {
+	background-position: left bottom;
+}
+
+.player .min {
+	background-image: url(../images/lower.png);
+	background-position: right top;
+	width: 22px;
+	height: 10px;
+	float: left;
+	margin-left: 17px;
+	margin-top: 24px;
+}
+
+.player .min:hover {
+	background-position: right bottom;
+}
+
+.player .separa {
+	width: 1px;
+	height: 52px;
+	float: left;
+	margin-left: 19px;
+	margin-top: 22px;
+	margin-right: 12px;
+}
+
+.player .info {
+	background-repeat: no-repeat;
+	background-position: 2px center;
+	width: 100px;
+	padding-left: 18px;
+	height: 19px;
+	line-height: 19px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	margin-top: 4px;
+}
+
+.player .locutor {
+	background-image: url(../images/loc.png);
+	background-position: left center;
+	margin-top: 7px;
+	margin-left: -5px;
+	padding-left: 22px;
+	height: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.player .room {
+	background-image: url(../images/pipoca.png);
+	background-position: left center;
+	margin-left: -4px;
+	margin-top: 5px;
+}
+
+.player .listeners {
+	background-image: url(../images/listeners.png);
+	background-position: left center;
+	margin-left: -4px;
+	margin-top: 5px;
+}
+
+.player .music {
+	background-image: url(../images/music.png);
+	background-position: left center;
+	margin-left: -4px;
+	margin-top: 3px;
+	width: 98px;
+	padding-left: 18px;
+	height: 18px;
+	line-height: 17px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.player .handle {
+	background-image: url(../img/handle.png);
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	right: 10px;
+	bottom: 8px;
+	cursor: e-resize;
+}
+
+.player .dev {
+	background-image: url(../images/dev.png);
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	right: 31px;
+	margin-top: 75px;
+	cursor: pointer;
+}
+
+.player .close {
+	background-image: url(../images/close.png);
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	right: 12px;
+	top: 10px;
+	cursor: pointer;
+}
+.player .close:active {
+	background-image: url(../images/close-active.png);
+
+}
+
+/*.player .close:hover {
+	background-position: center;
+}
+
+.player .close:active {
+	height: 19px;
+	top: 11px;
+	background-position: bottom;
+}*/
+
+/*.player .twitter:hover {
+	background-position: center;
+}
+
+.player .twitter:active {
+	height: 19px;
+	top: 37px;
+	background-position: bottom;
+}*/
